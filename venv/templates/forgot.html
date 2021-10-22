@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container">
+             <div class="heading">
+                <h1>Forgot Password</h1>
+             </div>
+            <div class="inp">
+
+                <form method="POST" action="/forgotpassword">
+                <div class="spacer">
+                </div>
+                <div class="form-group">
+                    <label>Email Id</label>
+                    <input
+                    type="email"
+                    class="form-control input-lg"
+                    name = "username"
+
+                    />
+                </div>
+
+                    <button
+                    type="submit"
+                    name="submit"
+                    class="ssbutton">Reset Password</button>
+
+                </form>
+                <a href="/login">
+                <h5 class="new">Login?</h5>
+                </a>
+
+
+            </div>
+         </div>
+{% endblock %}

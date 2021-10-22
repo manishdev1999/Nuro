@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #ffffff00  !important;
+}
+    .container{
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 4px inset, #fab700 20px -10px 0px -3px;
+        max-width: 450px;
+        margin: auto;
+        margin-top: 5%;
+
+    }
+    
+    a:link {
+        color: black;
+      }
+      a:visited {
+        color: black;
+      }
+      a:hover {
+        color: black;
+      }
+      a:active {
+        color: black;
+      }
+
+    .inp{
+        padding: 40px;
+
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .icon{
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .fa{
+        padding: 10px;
+        color: #000;
+    }
+
+    .heading{
+        position: absolute;
+        background-color: #fff;
+        width: 140px;
+        margin-top: -40px;
+        padding-right: 20px;
+    }
+    .form-group {
+        border: 2px solid;
+        margin: 5%;
+        margin-top: 30px;
+        width: auto;
+        min-width: 250px;
+        height: 40px;
+        padding-bottom: 10px;
+    }
+
+    .form-group>label {
+        position: relative;
+        top: -11px;
+        left: -2px;
+        padding: 10px;
+        background: #fff;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    .text{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .form-group>input {
+        border: none;
+        background: transparent;
+        width: 320px;
+        height: 40px;
+        margin-top: 0px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 1000;
+
+    }
+    .form-group>select {
+        border: none;
+        background: transparent;
+        width: 320px;
+        height: 40px;
+        margin-top: 0px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 1000;
+    }
+
+    input:focus,  select:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+
+    .ssbutton{
+        content: "Sign Up";
+        width: 100px;
+        height: 40px;
+        background-color: #fab700;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 1000;
+        margin-left: 35%;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    .sss{
+        display: none;
+    }
+
+    .ssbutton:hover{
+        box-shadow: #fab700 0px 0px 0px 4px inset, #000 10px -10px 0px -3px;
+        transition: 0.15s;
+    }
+    .line{
+        margin-top: 30px;
+    }
+    .line1{
+        color: #000;
+    }
+    .text{
+        position: relative;
+        margin-top: -20px;
+
+    }
+    .back{
+        background-color: #fff;
+        width: 40px;
+        margin-left: 43%;
+        padding-left: 5px;
+        /* padding: 20px; */
+
+    }
+    .icons{
+
+        width: 150px;
+        margin-left: 39%;
+    }
+    .left{
+        /* float: left; */
+
+        display: inline;
+    }
+    .right{
+        /* float: right; */
+        display: inline;
+
+    }
+    .new{
+        position: relative;
+        margin-left: 0%;
+        padding-bottom: 0px;
+        text-decoration: underline #fab700;
+    }
+    .newforgot{
+        position: relative;
+        margin-left: 60%;
+        padding-bottom: 0px;
+        text-decoration: underline #fab700;
+    }
+
+ 

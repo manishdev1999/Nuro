@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container">
+             <div class="heading">
+                <h1>Sign In</h1>
+             </div>
+            <div class="inp">
+
+                <form action="/login" method="post">
+                <div class="form-group">
+                    <label>Email Id</label>
+                    <input
+                    type="email"
+                    class="form-control input-lg"
+                    name = "username"
+                    
+
+                    />
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input
+                     type="password"
+                     class="form-control input-lg"
+                     name="password"
+
+                     />
+
+                </div>
+                <div>
+                  <a href="/forgotpassword">
+                  <h5 class="newforgot">Forgot Password?</h5>
+                  </a>
+                </div>
+
+                <div>
+                    <center>
+                    {% if smessage %}
+                    <h5>
+                      {{ smessage }}
+                    </h5>
+                    {% endif %}
+                    {% if umessage %}
+                    <h5>
+                      {{ umessage }}
+                    </h5>
+                    {% endif %}
+                    </center>
+                </div>
+
+                    <button
+                    type="submit"
+                    name="submit"
+                    class="ssbutton">Sign In</button>
+
+                </form>
+         
+                <a href="/contactus">
+                <h5 class="new">New User?</h5>
+                </a>
+
+            </div>
+         </div>
+{% endblock %}

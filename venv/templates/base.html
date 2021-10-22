@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WHATO - Sit back & Automate</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/form.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/global.css') }}">
+    <link rel="icon" href="{{ url_for('static',filename='images/1.png') }}" type="image/gif" sizes="16x16">
+
+
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+    <div class="footer">
+      <p>Copyright ©2021 · <b>WHATO - Sit Back & Automate</b> · All Rights Reserved</p>
+    </div>
+</body>
+</html>
